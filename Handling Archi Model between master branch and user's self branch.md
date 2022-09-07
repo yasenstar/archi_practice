@@ -1,8 +1,5 @@
 
-
-
-
-```sequence
+```seq
 Title: Handling Archi Model between "master" branch and user's self branch
 User(Local)->User(Local): Working on self branch, Commit
 Note left of User(Local): [Current]
@@ -21,6 +18,4 @@ User(Local)->Master(Local): Merge Branch into Current Branch, choose "Local"
 Note left of Master(Local): this step is safe!
 Master(Local)->Master(Remote): Publish master branch after local merging
 ```
-
-
 

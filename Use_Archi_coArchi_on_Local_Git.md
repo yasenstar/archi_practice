@@ -56,3 +56,35 @@ $ git config user.password "Password"
 
 Note: here I don't have `--global` option as I just want those information are applying to this repository, not impact my others.
 
+## Connect Archi model with local Git server
+
+Open Archi, create one new local model, if you've already have coArchi plug-in, you should see `Collaboration` in the menu bar.
+
+Select your local model, then from `Collaboration`, choose `Add Local Model to Workspace and Publish`:
+
+![add_local_archi_model](img/add_local_archi_model.png)
+
+In the pop up `New Model Repository` (as above) empty dialog, fill in URL, User Name and Password that we have prepared before. Clidk `OK`, you will see your local model appeared in the `Collaboration Workspace` list.
+
+You can then work like remote Git without different in Archi, when you publish your model, the local Git server will get updated.
+
+Also, you can create multiple branch and those information can be viewed / switched in local Git through standard command.
+
+## Difference between using remote and local Git server
+
+As mentioned in the beginning, this is just a "play" purpose for now, I haven't put my working model to this local Git server, and below you can find the folder structure difference as well:
+
+| Repo Type | Folders Structure Screen | Memo |
+| --- | --- | --- 
+| Remote Repository (e.g. Azure DevOps) | ![remote](img/remote_repo_folders.png) | This structure is the clear XML structure and can see different elements (Archimate layers) as well as views (called diagrams) as different folders |
+| Local Git Server | ![local](img/local_repo_folders.png) ![localpack](img/local_repo_pack.png) | The folder is still like the ones when initial the repository, and the elements created are stored under .\object\pack subfolders, every element is one pack |
+
+Need further observation on this, but at least, you are able to use coArchi with this local Git, within Git Bash, type `$ git branch`, you can see the list of branches of Archi model in Collaboration Worksapce:
+
+![git branch](img/git-branch.png)
+
+and you can check the version history in Git Bash through `$ git log`, which will list the current active branch's history, like below:
+
+![git log](img/git-log.png)
+
+Enjoy and welcome to hear from your opinion and comments. ([Mail to Me](mailto:xiaoqizhao@outlook.com))

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Life_in_Modeling" id="id-10db86f937164317a98eb85aef2186af" version="4.9.0">
+  <folder name="Strategy" id="id-22c4bc26c4e44a868b318ecc4fc1e5ce" type="strategy"/>
+  <folder name="Business" id="id-f63accd245c14864a8df02c6044d35e4" type="business"/>
+  <folder name="Application" id="id-58c0846c6fc2464db3b704ba4ec64d45" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-4158b13319ed4431b596110943edd4db" type="technology"/>
+  <folder name="Motivation" id="id-94542493d0a54f69bb178f75b801289b" type="motivation">
+    <folder name="Learning from Mistakes" id="id-b4ec7a2fc0654095bc30b11f6ea569ef">
+      <element xsi:type="archimate:Principle" name="1. Don't feel bad about your mistakes or those of others. Love them!" id="id-e2421170e4404e5fb0a347c433686947"/>
+      <element xsi:type="archimate:Principle" name="2. Recognize that mistakes are a natural part of the evolutionary process." id="id-143cff51ee194b599008016acee12b8a"/>
+      <element xsi:type="archimate:Principle" name="3. Teach and reinforce the merits of mistake-based learning." id="id-f7026ac371e548d897dfce6bd59df01a"/>
+      <element xsi:type="archimate:Principle" name="4. Be self-reflective and make sure your people are self-reflective." id="id-69df0529254342239a57a795b8ae158f"/>
+      <element xsi:type="archimate:Principle" name="5. Create a culture in which it is okay to make mistakes and unacceptable not to learn from them." id="id-90c799f3f8eb4063becb7e139d713fc5"/>
+      <element xsi:type="archimate:Principle" name="6. Observe the patterns of mistakes to see if they are products of weaknesses." id="id-9d83bda2b2c14778824392a5ec40debe"/>
+      <element xsi:type="archimate:Principle" name="7. Pain + Reflection = Progress." id="id-fb8ce8fef41640dda8ff3efa6d4c66b8"/>
+      <element xsi:type="archimate:Principle" name="8. Create guardrails when needed -and remember it's better not to guardrail at all." id="id-6ec78dc78a704f4b9ce788a903f9bb04"/>
+      <element xsi:type="archimate:Principle" name="9. Diagnose problems to get at their root causes." id="id-708ac187e95943a5a58df1bfccce330f"/>
+    </folder>
+    <element xsi:type="archimate:Principle" name="Principles for Learning from Mistakes (Ray Dalio)" id="id-261599137ef04aefa5e20522a351c3cb"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-88de2011288345049f2ca2ebcba81fd0" type="implementation_migration"/>
+  <folder name="Other" id="id-ebcd4f35709e4d2a86d8eac820052ec6" type="other"/>
+  <folder name="Relations" id="id-3c3154a182c649b2b9d902baa35fcef8" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="id-be190dbb369943e88236399c46e68186" source="id-261599137ef04aefa5e20522a351c3cb" target="id-90c799f3f8eb4063becb7e139d713fc5"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-ca22c50bcab74325b6b792fdb7cf4c66" source="id-261599137ef04aefa5e20522a351c3cb" target="id-143cff51ee194b599008016acee12b8a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-08c3ed7f12fd4c1894a9319532b057ca" source="id-261599137ef04aefa5e20522a351c3cb" target="id-fb8ce8fef41640dda8ff3efa6d4c66b8"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-9198cf726ac14c00942f0a6d6f93a55d" source="id-261599137ef04aefa5e20522a351c3cb" target="id-69df0529254342239a57a795b8ae158f"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-d7d5d57b4b8243659ddb168240e4eaab" source="id-261599137ef04aefa5e20522a351c3cb" target="id-f7026ac371e548d897dfce6bd59df01a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-3815bfeb42974315852afda0c4e38329" source="id-261599137ef04aefa5e20522a351c3cb" target="id-6ec78dc78a704f4b9ce788a903f9bb04"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-f742e09c8a224c8ba3e216f34a0cd7fd" source="id-261599137ef04aefa5e20522a351c3cb" target="id-9d83bda2b2c14778824392a5ec40debe"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-8b77553f7c8d4cb0b49f5559dec2adab" source="id-261599137ef04aefa5e20522a351c3cb" target="id-708ac187e95943a5a58df1bfccce330f"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-0e41ecebbb4e4fe09d4084e233c3454e" source="id-261599137ef04aefa5e20522a351c3cb" target="id-e2421170e4404e5fb0a347c433686947"/>
+  </folder>
+  <folder name="Views" id="id-f7840f641b614f468d6978338ab2679e" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Principles for Learning from Mistakes (Ray Dalio)" id="id-51c088804a8d447e9de09c0c3475cb62">
+      <child xsi:type="archimate:DiagramObject" id="id-8f1ec42070204bedb6407d3380ca8594" archimateElement="id-261599137ef04aefa5e20522a351c3cb">
+        <bounds x="120" y="60" width="733" height="337"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-52e39f9d7036460bafceb15bc4420fd3" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-131d6168b1b147bdbe4f387b570c0829" archimateRelationship="id-be190dbb369943e88236399c46e68186"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-53332a604de7498bbbb0537dcf102581" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-36b5912bae9a49cd980db2d362669ef2" archimateRelationship="id-ca22c50bcab74325b6b792fdb7cf4c66"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3daa8c9b6ec1401d8d92406a9411364f" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-e215494ab2564fa9819ff21390852695" archimateRelationship="id-08c3ed7f12fd4c1894a9319532b057ca"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-9b4ad267a5b54680a564f2a54c966bb7" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-de07d9957e5546c185244896496d86d0" archimateRelationship="id-9198cf726ac14c00942f0a6d6f93a55d"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-93d9521c14e44b488385279b9957e353" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-7913cf2231244d3cba79e78823546e6a" archimateRelationship="id-d7d5d57b4b8243659ddb168240e4eaab"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-9f006904ac6e4d558191ef4de7c83653" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-6d990a32414745a3ae6fbb33cf7c7dda" archimateRelationship="id-3815bfeb42974315852afda0c4e38329"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-906964f043624552bfbec3769db3ab40" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-696d1766b05f476a969a57b525190a7d" archimateRelationship="id-f742e09c8a224c8ba3e216f34a0cd7fd"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-85725f404f3b4780b56601db0f5e3dac" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-3fdce8ef166c47f2bd234c0783fee070" archimateRelationship="id-8b77553f7c8d4cb0b49f5559dec2adab"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-1228de290af34f709dde90d979dffa11" source="id-8f1ec42070204bedb6407d3380ca8594" target="id-929a635d969b498a859f3b6438e90fd0" archimateRelationship="id-0e41ecebbb4e4fe09d4084e233c3454e"/>
+        <child xsi:type="archimate:DiagramObject" id="id-131d6168b1b147bdbe4f387b570c0829" targetConnections="id-52e39f9d7036460bafceb15bc4420fd3" archimateElement="id-90c799f3f8eb4063becb7e139d713fc5">
+          <bounds x="276" y="140" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-36b5912bae9a49cd980db2d362669ef2" targetConnections="id-53332a604de7498bbbb0537dcf102581" archimateElement="id-143cff51ee194b599008016acee12b8a">
+          <bounds x="276" y="40" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e215494ab2564fa9819ff21390852695" targetConnections="id-3daa8c9b6ec1401d8d92406a9411364f" archimateElement="id-fb8ce8fef41640dda8ff3efa6d4c66b8">
+          <bounds x="60" y="240" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-de07d9957e5546c185244896496d86d0" targetConnections="id-9b4ad267a5b54680a564f2a54c966bb7" archimateElement="id-69df0529254342239a57a795b8ae158f">
+          <bounds x="60" y="140" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7913cf2231244d3cba79e78823546e6a" targetConnections="id-93d9521c14e44b488385279b9957e353" archimateElement="id-f7026ac371e548d897dfce6bd59df01a">
+          <bounds x="492" y="40" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6d990a32414745a3ae6fbb33cf7c7dda" targetConnections="id-9f006904ac6e4d558191ef4de7c83653" archimateElement="id-6ec78dc78a704f4b9ce788a903f9bb04">
+          <bounds x="276" y="240" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-696d1766b05f476a969a57b525190a7d" targetConnections="id-906964f043624552bfbec3769db3ab40" archimateElement="id-9d83bda2b2c14778824392a5ec40debe">
+          <bounds x="492" y="140" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3fdce8ef166c47f2bd234c0783fee070" targetConnections="id-85725f404f3b4780b56601db0f5e3dac" archimateElement="id-708ac187e95943a5a58df1bfccce330f">
+          <bounds x="492" y="240" width="193" height="73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-929a635d969b498a859f3b6438e90fd0" targetConnections="id-1228de290af34f709dde90d979dffa11" archimateElement="id-e2421170e4404e5fb0a347c433686947">
+          <bounds x="60" y="40" width="193" height="73"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Note" id="id-625e0ce653544b3ca045291e794dd213" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" borderType="2">
+        <bounds x="300" y="22" width="373" height="39"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-4b5cfed0eb074d1bad91bb0daca30a0f" textPosition="1" borderType="2">
+        <bounds x="672" y="420" width="185" height="49"/>
+        <feature name="labelExpression" value="Last Updated at: $view{property:Last Update}&#xD;&#xA;Last Updated by: $view{property:Last Updated by}"/>
+        <property key="Last Update" value="Updated at 2021/5/13"/>
+      </child>
+      <property key="Last Update" value="2022/10/10"/>
+      <property key="Last Updated by" value="Xiaoqi Zhao"/>
+    </element>
+  </folder>
+</archimate:model>

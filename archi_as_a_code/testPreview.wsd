@@ -1,0 +1,15 @@
+@@startuml
+scale 2
+left to right direction
+skinparam packageStyle rect
+actor customer
+actor "another customer" as au
+actor clerk
+rectangle checkout {
+    customer -- (checkout)
+    au -- (checkout)
+    (checkout) -> (payment): include
+    (help) -> (checkout): extend
+    (checkout) -- clerk
+}
+@@enduml

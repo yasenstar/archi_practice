@@ -1,0 +1,15 @@
+# Beware of DAST!
+
+These days we watch a wave of #DAST - #Dynamic Application #Security Testing. This sounds great... but this name means much more than the tool/method provides. If you do not know what is not covered, you are getting the wrong message trysting this tool.
+
+First, it is for #DevOps who usually work on a fragment of an application assuming that just a combination of somehow security-tested fragments results in the good security of the whole application, which is not necessarily right in many scenarios. Traditional security teams are not stupid when applying special methods of application security testing, which are ineffective on the fragments. Security bugs are equally if not more expensive to the company than functional bugs. So, I propose that the DevOps teams that allowed security bugs due to simplicity and speed be charged for these bugs directly.
+
+Second, DAST considers only Web Applications and should be called #DWAST, which clearly exposes its limited scope of applicability. In 1994-1995 I developed an automated UI testing tool for Windows and found a security bug in it running the tool. I.e. "dynamic" is not new.
+
+Third, if we test a composition of #Microservices/Application protected by a #Gateway, we have a network segment between the Gateway and the Microservice's #API. Where DWAST should run - before the Gateway or after, for each API? If we create a mentioned application that may be dynamically updated, we, probably, create a trust between the Gateway and Internal API, i.e. we do not test their security (for the sake of speed). Is this good?
+
+Fourth, if we test the API of the first Application A1 with DWAST, but the A1 communicates to the API of A2, what protects A1 from the DWAST destructions that result in the wrong invocation of A2?
+
+I am inclined to think that DWAST/DAST may help DevOps teams but it is quite not enough for a company's security control. A company is concerned about products and services, and their security regardless of how they had been created. If a company releases a product piece-by-piece in the DevOps manner and does not conduct full #Regression and e2e Security #Tests of the entire composition at each release moment, I would trust such product neither in its functionality nor security. I hope you might recall your experience when you tried to assemble something using bolts where the holes and thread and screw-head were perfect you could not put the bolt in its place because another bolt was set such close that it prevented your bolt from getting in. This is what DAST/DWAST allows to happen to #product Security, which, IMHO, is not good.
+
+Author: [Michael Poulin](https://www.linkedin.com/in/michaelpoulin?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABfgoABpfhceD9sDPMnve7fMhmmiv2KNSY&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BAdfIJrQITdey%2B4TYO5hykw%3D%3D)

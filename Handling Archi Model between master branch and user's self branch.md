@@ -19,3 +19,4 @@ Note left of Master(Local): this step is safe!
 Master(Local)->Master(Remote): Publish master branch after local merging
 ```
 
+«»
